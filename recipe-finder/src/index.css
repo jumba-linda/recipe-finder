@@ -1,0 +1,21 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  .prose {
+    max-width: none;
+  }
+  
+  .prose ol {
+    list-style-type: decimal;
+    list-style-position: inside;
+  }
+}
